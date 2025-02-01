@@ -2,12 +2,11 @@
 
 After you clone the repository create a python virtual environment and install the required packages
 
+## System config
+
 OS: WSL2, Ubuntu 24.04.01
-
 Trained on Nvidia RTX 2080ti (11gb VRAM)
-
 intel core i5 9600x
-
 32gb DDR4 RAM
 
 ## How to set up
