@@ -1,10 +1,15 @@
 # Defect-detection-in-images
 
 After you clone the repository create a python virtual environment and install the required packages
+
 OS: WSL2, Ubuntu 24.04.01
+
 Trained on Nvidia RTX 2080ti (11gb VRAM)
+
 intel core i5 9600x
+
 32gb DDR4 RAM
+
 ## How to set up
 python3 -m venv .venv
 source .venv/bin/activate
