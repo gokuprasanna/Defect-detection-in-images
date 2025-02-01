@@ -8,7 +8,7 @@ OS: WSL2, Ubuntu 24.04.01
 
 Trained on Nvidia RTX 2080ti (11gb VRAM)
 
-intel core i5 9600x
+intel core i5 9600k
 
 32gb DDR4 RAM
 
