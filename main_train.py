@@ -5,15 +5,19 @@ import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 from torch.utils.data import DataLoader
 from model import *
+import json
+
+with open("config.json", "r") as config_file:
+    config = json.load(config_file)
 
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 
 # Hyperparameters
-BATCH_SIZE = 32
-LEARNING_RATE = 0.0005
-EPOCHS = 10000
-IMG_SIZE = 128  # Resizing images for CNN input
+BATCH_SIZE = config["model"]["batch_size"]
+LEARNING_RATE = config["model"]["learning_rate"]
+EPOCHS = config["model"]["epochs"]
+IMG_SIZE = config["model"]["img_size"]  # Resizing images for CNN input
 
 # Dataset paths
 DATASET_DIR = "fabric_dataset"
