@@ -14,7 +14,7 @@ Python version 3.12.3
 python3 -m venv .venv\
 source .venv/bin/activate\
 python -m pip install --upgrade pip\
-pip install -r requirements.txt\
+pip install -r requirements.txt
 
 ## Start the work flow
 python3 run.py
