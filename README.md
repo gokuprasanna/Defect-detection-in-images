@@ -11,10 +11,10 @@ intel core i5 9600k\
 Python version 3.12.3
 
 ## How to set up
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+python3 -m venv .venv\
+source .venv/bin/activate\
+python -m pip install --upgrade pip\
+pip install -r requirements.txt\
 
 ## Start the work flow
 python3 run.py

@@ -1,0 +1,7 @@
+*.pth
+*.mp4
+*.avi
+scratch.ipynb
+__pycache__/
+
+

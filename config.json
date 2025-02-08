@@ -1,0 +1,32 @@
+{
+    "dataset": {
+        "img_width": 512,
+        "img_height": 512,
+        "num_samples": 100,
+        "num_defects": 3,
+        "defect_radius": 5,
+        "defect_intensity": 80,
+        "fabric_colors": [[200, 200, 200], [150, 100, 50], [50, 150, 200]],
+        "train_ratio": 0.8,
+        "directory": "fabric_dataset"
+    },
+    "model": {
+        "img_size": 128,
+        "batch_size": 32,
+        "learning_rate": 0.0005,
+        "epochs": 50,
+        "conv1_channels": 32,
+        "conv2_channels": 64,
+        "kernel_size": 3,
+        "pool_size": 2,
+        "fc1_units": 128,
+        "dropout_rate": 0.5
+    },
+    "video": {
+        "frame_width": 512,
+        "frame_height": 512,
+        "fps": 5,
+        "video_duration": 30,
+        "output_video_path": "fabric_conveyor_simulation.mp4"
+    }
+}
